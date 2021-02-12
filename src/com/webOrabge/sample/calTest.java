@@ -12,4 +12,9 @@ public class calTest {
 		assertEquals(6, cal.multi(2,3));
 	}
 
+	@Test
+	public void testAdd() {
+		cal cal = new cal();
+		assertEquals(9, cal.add(2,3));
+	}
 }
