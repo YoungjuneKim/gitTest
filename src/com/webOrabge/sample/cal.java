@@ -9,4 +9,7 @@ public class cal {
 		return x+y ;
 	}
 	
+	public int minus(int x, int y) {
+		return x-y ;
+	}
 }
